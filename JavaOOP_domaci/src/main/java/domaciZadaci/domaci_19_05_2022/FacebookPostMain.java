@@ -10,7 +10,7 @@ public class FacebookPostMain {
         FacebookPost user1 = new FacebookPost();
 
         user1.imeIPrezime = "Milan Jovanovic";
-        user1.getImeIPrezimeNaTudjem = "Vladimir Minic";
+        user1.ImeIPrezimeNaTudjem = "Vladimir Minic";
         user1.brojLajkova = 0;
         user1.brojDeljenja = 0;
         user1.tekstObjave = "Vlado, ove nase kursadzije kidaju JavaOOP!";

@@ -25,7 +25,7 @@ public class FacebookPost {
     //Ovo je tekst objave
     //Likes 3 | Shares 1
     public String imeIPrezime;
-    public String getImeIPrezimeNaTudjem;
+    public String ImeIPrezimeNaTudjem;
     public String tekstObjave;
     public int brojLajkova;
     public int brojDeljenja;
@@ -48,7 +48,7 @@ public class FacebookPost {
         //    //(tekst objave)
         //    //Likes (broj lajkova) | Shares (broj deljenja)
         //    //
-        System.out.println(this.imeIPrezime + " >>> " + this.getImeIPrezimeNaTudjem);
+        System.out.println(this.imeIPrezime + " >>> " + this.ImeIPrezimeNaTudjem);
         System.out.println(this.tekstObjave);
         System.out.print("Likes " + this.brojLajkova + " | " + "Shares " + this.brojDeljenja);
 
