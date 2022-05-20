@@ -1,4 +1,4 @@
-package domaci_18_05_2022;
+package domaciZadaci.domaci_18_05_2022;
 
 public class SmartAirConditioning {
     //Kreirati klasu SmartAirConditioning koja ima:

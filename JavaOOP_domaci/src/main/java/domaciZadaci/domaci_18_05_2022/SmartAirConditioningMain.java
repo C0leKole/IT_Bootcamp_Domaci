@@ -1,4 +1,4 @@
-package domaci_18_05_2022;
+package domaciZadaci.domaci_18_05_2022;
 
 public class SmartAirConditioningMain {
     public static void main(String[] args) {
