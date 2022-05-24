@@ -52,7 +52,7 @@ public class Vaga {
         } else {
             System.out.println(this.proizvod.getcenaPoFunti() + " lb x " + tezina);
         }
-        System.out.println("Ukupno: " + this.sracunajCenu(50));
+        System.out.println("Ukupno: " + this.sracunajCenu(30));
 
     }
 }
