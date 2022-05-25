@@ -76,7 +76,7 @@ public class Transakcije {
 
     public void izvrsiTranskaciju (double vrednostTranskacije) {
         if (this.racunPrimaoca.getTrenutnoStanje() > 0) {
-            this.racunPosliljaoca.menjajStanje(vrednostTranskacije * -1 + provizija(vrednostTranskacije));
+            this.racunPosliljaoca.menjajStanje(vrednostTranskacije * -1 - provizija(vrednostTranskacije));
             this.racunPrimaoca.menjajStanje(vrednostTranskacije);
         } else {
             System.out.println("Nemate dovoljno sredstava na racunu posiljaoca!");
