@@ -49,7 +49,12 @@ public class FacePost {
     }
 
     public void reaguj(Reakcija reakcija) {
+        for (int i = 0; i < nizReakcija.size() ; i++) {
 
+            if (nizReakcija.get(i).getImeIprezime().equals(reakcija.getImeIprezime())){
+                nizReakcija.remove(i);
+            }
+        }
         nizReakcija.add(reakcija);
     }
 
