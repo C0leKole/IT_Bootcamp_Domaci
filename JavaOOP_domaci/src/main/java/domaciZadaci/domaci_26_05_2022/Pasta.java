@@ -23,6 +23,9 @@ public class Pasta {
     public void dodajStastojak(Sastojak x) {
         nizSastojaka.add(x);
     }
+    public void obrisiSastojak (Sastojak y) {
+        nizSastojaka.remove(y);
+    }
     public Pasta() {
 
     }
@@ -45,9 +48,9 @@ public class Pasta {
 
     public void stampaj() {
         System.out.println("Pasta je sa sastojcima: ");
-        System.out.println(nizSastojaka.get(0).getNaziv() + " - " + nizSastojaka.get(0).getCena());
-        System.out.println(nizSastojaka.get(1).getNaziv()+ " - " +  nizSastojaka.get(1).getCena());
-        System.out.println(nizSastojaka.get(2).getNaziv() + " - " + nizSastojaka.get(2).getCena());
+        for (int i = 0; i < this.nizSastojaka.size(); i++) {
+            System.out.println(this.nizSastojaka.get(i).getNaziv() + " - " + this.nizSastojaka.get(i).getCena() + ". din");
+        }
         System.out.println("Cena paste je " + cenaPaste() + "din.");
     }
 }

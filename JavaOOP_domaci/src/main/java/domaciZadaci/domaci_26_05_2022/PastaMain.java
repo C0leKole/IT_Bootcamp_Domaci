@@ -11,8 +11,9 @@ public class PastaMain {
         Pasta sastojak = new Pasta();
         sastojak.dodajStastojak(p1);
         sastojak.dodajStastojak(p2);
+        sastojak.dodajStastojak(p2);
         sastojak.dodajStastojak(p3);
-
+        sastojak.obrisiSastojak(p3);
         sastojak.stampaj();
 
     }
