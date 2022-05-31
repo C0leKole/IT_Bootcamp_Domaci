@@ -1,5 +1,8 @@
 package p26_05_2022;
 
+import domaciZadaci.domaci_26_05_2022.FacePost;
+import domaciZadaci.domaci_26_05_2022.Reakcija;
+
 public class FacePostMain {
     public static void main(String[] args) {
         Reakcija k1 = new Reakcija("smajli", "Pera Peric");

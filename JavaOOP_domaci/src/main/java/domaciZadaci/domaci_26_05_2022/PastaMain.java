@@ -1,4 +1,4 @@
-package p26_05_2022;
+package domaciZadaci.domaci_26_05_2022;
 
 public class PastaMain {
     public static void main(String[] args) {

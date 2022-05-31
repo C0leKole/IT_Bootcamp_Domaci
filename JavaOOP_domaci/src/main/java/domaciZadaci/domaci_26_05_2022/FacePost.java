@@ -1,4 +1,4 @@
-package p26_05_2022;
+package domaciZadaci.domaci_26_05_2022;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class FacePost {
     //ime i prezime
     //tekst objave
     //Smajli 10 | Like 15 | Srce 2
-    ArrayList<Reakcija> nizReakcija = new ArrayList<Reakcija>();
+    public ArrayList<Reakcija> nizReakcija = new ArrayList<Reakcija>();
     private String imeAutora;
     private String tekstObjave;
 

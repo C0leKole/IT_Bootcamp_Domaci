@@ -1,7 +1,6 @@
-package p26_05_2022;
+package domaciZadaci.domaci_26_05_2022;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Pasta {
     //Kreirati klasu Pasta koja ima:
