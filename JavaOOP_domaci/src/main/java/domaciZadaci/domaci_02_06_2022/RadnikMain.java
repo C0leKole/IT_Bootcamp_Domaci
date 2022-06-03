@@ -24,6 +24,7 @@ public class RadnikMain {
 
 
 
+
         System.out.println("Plata magacionera " + magacioner.getImeIprezime() + " je " + magacioner.plataRadnika());
         System.out.println("Plata menadzera " + menadzer.getImeIprezime() + " je " + menadzer.plataRadnika());
 
