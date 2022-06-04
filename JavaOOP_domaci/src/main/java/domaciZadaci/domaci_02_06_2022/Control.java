@@ -1,4 +1,4 @@
-package VideoPlayer;
+package domaciZadaci.domaci_02_06_2022;
 
 public abstract class Control {
     //Kreirati apstraktnu klasu Control koja ima:

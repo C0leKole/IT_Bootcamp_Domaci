@@ -1,7 +1,5 @@
 package domaciZadaci.domaci_02_06_2022;
 
-import java.util.ArrayList;
-
 public class RadnikMain {
     //U glavnom programu kreirati jednog magacionera i jednog menadzera,
     // postaviti sektore u kojima rade i ispisati platu za svakog

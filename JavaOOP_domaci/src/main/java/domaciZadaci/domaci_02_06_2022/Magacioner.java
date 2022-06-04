@@ -1,7 +1,5 @@
 package domaciZadaci.domaci_02_06_2022;
 
-import java.util.ArrayList;
-
 public class Magacioner extends Radnik {
     public Magacioner(String imeIprezime) {
         super(imeIprezime);

@@ -1,4 +1,4 @@
-package VideoPlayer;
+package domaciZadaci.domaci_02_06_2022;
 
 public class QualityOptimizerControl extends Control {
     @Override
